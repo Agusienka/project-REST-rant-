@@ -11,7 +11,7 @@
 
 - 📫 How to reach me **agamoe@gmail.**
 
-<h3 align="left">Connect with me:</h3>
+<h3 align="left">Connect with me:agamoe@gmail.com</h3>
 <p align="left">
 </p>
 

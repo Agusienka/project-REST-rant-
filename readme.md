@@ -8,7 +8,7 @@
 
 - 🌱 I’m currently learning **Back-End Development & APIs**
 
-- 🤝 I’m looking for help with [RestRand projext](https://github.com/Agusienka/project-REST-rant-.git)
+- 🤝 I’m looking for help with [RestRand project](https://github.com/Agusienka/project-REST-rant-.git)
 
 - 📫 How to reach me **agamoe@gmail.**
 

@@ -5,7 +5,18 @@ function home () {
         return (
           <Def>
               <main>
-                  <h1>HOME</h1>
+                  <h1 className="heading text-center">HOME</h1>
+                  <div>
+                    <img src="/images/cooldude.jpg" class="coolDude container row span4 " alt="pic of a chill dude" />
+                  <div className="headerOne text-center">
+                  Photo by <a  href='https://unsplash.com/@kalvisuals?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>KAL VISUALS</a> on <a href='https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText'>Unsplash</a>
+  
+                  </div>
+                  </div>
+                  <a href="/places">
+                  <button className="headerTwo btn-primary text-center">Places Page</button>
+                  </a>
+
               </main>
           </Def>
         )

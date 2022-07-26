@@ -1,0 +1,56 @@
+@font-face {
+  font-family: "CustomFonts";
+  src: url("/css/Mustache Brush Script.ttf") format("brush");
+  src: url("/css/Mustache Rounded.ttf") format("rounded");
+  src: url("/css/Mustache Script.ttf") format("script");
+}
+
+
+* {
+   
+    color: cornflowerblue;
+  }
+ 
+.placesIndxPics {
+  width: 500px;
+  height: 400px;
+  background-position: 50% 50%;
+  background-size: contain;
+}
+.coolDude {
+  width: 500px;
+  height: 400px;
+ 
+  
+
+}
+
+.headerOne {
+  color: #BEB7DF;
+  font-family: "script";
+ 
+}
+
+.heading {
+  color: #ECB6E2;
+  font-family: "brush";
+  font-size: 70px;
+}
+
+.headerTwo {
+  color: #FFB5CC;
+  font-family: "rounded";
+}
+
+.horseImg {
+  height: 600px;
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headerThree {
+  color: #FFBFA5;
+  font-family: "rounded";
+}

@@ -5,9 +5,15 @@ const Def = require('../default')
     function index (data) {
         let placesFormatted = data.places.map((place) => {
           return (
-            <div>
-              <h2>{place.name}</h2>
-              <img src={place.pic} alt={place.name}/>
+            <div key={index} className=" col-md-4 " >
+              <h2 className='headerOne'>{place.name}</h2>
+              <p className="headerTwo text-left">
+                {place.cuisines}
+              </p>
+              <img className="placesIndxPics" src={place.pic} alt={place.name}/>
+              <p className="headerThree text-left">
+                Located in {place.city}, {place.state}
+              </p>
             </div>
           )
         })
@@ -15,8 +21,10 @@ const Def = require('../default')
         return (
           <Def>
               <main>
-                  <h1>PLACES INDEX PAGE</h1>
-                  {placesFormatted}
+                  <h1 className='heading text-center'>Places to Rant or Rave About</h1>
+                  <div className='row'>
+                    {placesFormatted}
+                  </div>
               </main>
           </Def>
         )

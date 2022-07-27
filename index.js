@@ -11,6 +11,8 @@ app.use('/places', require('./controllers/places.js'))
 
 app.get('/', (req, res) => {
     res.render('home')
+
+    
 })
 
 app.get('*', (req, res) => {
@@ -18,3 +20,19 @@ app.get('*', (req, res) => {
 })
 
 app.listen(process.env.PORT)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

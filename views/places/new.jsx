@@ -11,3 +11,5 @@ const Def = require('../default')
           </Def>
         )
         }
+
+        module.exports = new_form

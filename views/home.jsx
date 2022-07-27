@@ -9,7 +9,7 @@ function home () {
             <div class="topnav">
                 <a class="active" href='/'>Home</a>
                 <a href='/places'>Places</a>
-                <a href='/newPlace'>New Places</a>
+                <a href='places/new'>New Places</a>
             </div>
               <main>
                   <h1 className="heading text-center">REST-Rant</h1>

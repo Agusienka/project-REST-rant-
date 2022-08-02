@@ -23,7 +23,7 @@ router.get('/new', (req, res) => {
   res.render('places/new')
 })
 
-router.get('/:id', (req, res) => {
+router.get('/:id/edit', (req, res) => {
   db.Place.findOne({ _id: req.params.id })
       .populate('comments')
       .then(place => {

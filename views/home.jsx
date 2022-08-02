@@ -6,11 +6,11 @@ function home () {
 
         return (
           <Def>
-            <div class="topnav">
-                <a class="active" href='/'>Home</a>
-                <a href='/places'>Places</a>
-                <a href='places/new'>New Places</a>
-            </div>
+            
+            
+            
+            
+            
               <main>
                   <h1 className="heading text-center">REST-Rant</h1>
                   <div>
@@ -24,7 +24,7 @@ function home () {
                   <button id="placeButton" className="bubbly-button btn-primary text-center">Places Page</button>
                   </a>
   
-        
+                  <link rel="stylesheet" href="public/css/style.css" />
         
                   
                   

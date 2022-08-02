@@ -1,5 +1,5 @@
 const React = require('react')
-const Def = require('../default')
+const Def = require('./default')
 
     function show () {
       
@@ -8,6 +8,7 @@ const Def = require('../default')
               <main>
                   <h1>SHOW PAGE</h1>
               </main>
+              
           </Def>
         )
         }

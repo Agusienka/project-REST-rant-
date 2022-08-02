@@ -33,7 +33,7 @@ function new_form (data) {
                 </div>
                 <div className="form-group col-sm-4">
                 <label htmlFor="state"></label>
-                <link rel="stylesheet" href="css/style.css" />
+               
 
   <div class="container form-group">
                 

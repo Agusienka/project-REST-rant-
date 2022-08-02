@@ -32,7 +32,7 @@ function show (data) {
               <h2 className="rant">{c.rant ? 'Rant! 😡' : 'Rave! 😻'}</h2>
               <h4>{c.content}</h4>
               <h3>
-                <stong>- {c.author}</stong>
+                <strong>- {c.author}</strong>
               </h3>
               <h4>Rating: {c.stars}</h4>
               <form method="POST" action={`/places/${data.place.id}/comment/${c.id}?_method=DELETE`}>
@@ -46,6 +46,16 @@ function show (data) {
         <Def>
           <main>
             <h1>{data.place.name}</h1>
+            <div>
+              <a href={`/places/${data.place.id}/edit`} className="btn btn-warning"> 
+                  Edit
+              </a>       
+              <form method="POST" action={`/places/${data.place.id}?_method=DELETE`}> 
+                  <button type="submit" className="btn btn-danger">
+                      Delete
+                  </button>
+              </form>    
+          </div>
           </main>
         </Def>
     )

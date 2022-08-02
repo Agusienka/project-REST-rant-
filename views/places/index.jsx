@@ -7,7 +7,7 @@ const Def = require('../default')
           return (
             <div key={index} className=" col-md-4 " >
               <h2>
-              <a href={`/places/${index}`}>{place.name}</a>
+              <a href={`/places/${place.id}`}>{place.name}</a>
               </h2>
               <p className="headerTwo text-left">
                 {place.cuisines}

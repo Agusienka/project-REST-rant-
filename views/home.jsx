@@ -2,15 +2,8 @@ const React = require('react')
 const Def = require('./default')
 
 function home () {
-  
-
         return (
-          <Def>
-            
-            
-            
-            
-            
+          <Def>          
               <main>
                   <h1 className="heading text-center">REST-Rant</h1>
                   <div>
@@ -25,9 +18,7 @@ function home () {
                   </a>
   
                   <link rel="stylesheet" href="public/css/style.css" />
-        
-                  
-                  
+      
               </main>
           </Def>
         )
